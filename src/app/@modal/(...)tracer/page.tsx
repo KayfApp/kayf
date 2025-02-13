@@ -1,7 +1,8 @@
+import Popup from "@/components/popup"
 export default function TracerModal() {
     return (
-        <p>
-            Hello World
-        </p>
+        <div>
+            <Popup></Popup>
+        </div>
     )
 }
