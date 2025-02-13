@@ -59,7 +59,7 @@ export default function Popup() {
 
     // Redirect to /editor when dialog is closed
     if (!isOpen) {
-      router.push('/editor');
+      router.back();
     }
   };
 
